@@ -60,6 +60,11 @@ export default function Principal ({ navigation }) {
                         Buscar
                     </Text>
                 </TouchableOpacity>
+                <TouchableOpacity
+                    onPress={() => navigation.navigate('Cadastrar')}
+                >
+                    Cadastrar novo Usuario
+                </TouchableOpacity>
             </View>
         </ScrollView>
     )
